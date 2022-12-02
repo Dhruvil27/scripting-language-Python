@@ -1,13 +1,10 @@
-string=input("Enter Strig:")
-c=0
-l=len(string)
-    
+L1=[11,22,3,4,76,3,4,5,12,11,76,22]
+L2=[]
 
-for i in range(0,l):
-    print(string.count(string[i]))
 
-l=["H","E","L","L","o","I","N","D","I","A"]
-l.remove
-print(set(l))
+for i in  (L1):
+    if i not in L2:
+        L2.append(i)
 
+print(L2)
 
