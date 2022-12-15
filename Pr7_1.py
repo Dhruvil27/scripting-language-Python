@@ -1,6 +1,6 @@
 
 print("Create A Tuple")
-T1=(11,12,13,34,876,468,30) #create a Truple 
+T1=(11,12,13,34,876,468,30)
 print(T1)
 print("Truple to List converstion-------")
 T1=list(T1)
